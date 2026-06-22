@@ -1,7 +1,7 @@
 # Low-Power Active Cooling System for PV Panels to Improve Conversion Efficiency
 
 ## 📌 Project Overview
-This repository contains the embedded firmware, IoT architecture, and hardware methodology for a **Low-Power Active Cooling System** designed for Photovoltaic (PV) panels. Developed as a Final Year Project for the degree of Bachelor of Electrical Engineering at Universiti Sains Malaysia (USM).
+This repository contains the embedded firmware, IoT architecture, and hardware methodology for a **Low-Power Active Cooling System** designed for Photovoltaic (PV) panels developed as a Final Year Project for the degree of Bachelor of Electrical Engineering at Universiti Sains Malaysia (USM).
 
 The system autonomously mitigates the thermal degradation of solar panels operating in hot equatorial climates (which typically lose 0.3% to 0.5% efficiency for every 1°C rise above 25°C). It utilizes a direct water active cooling method combining front-misted water spraying and rear-mounted closed-loop circulation. 
 
