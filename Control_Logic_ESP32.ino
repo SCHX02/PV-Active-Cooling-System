@@ -1,7 +1,7 @@
 // --- Blynk Preparation ---
-#define BLYNK_TEMPLATE_ID "TMPL61ietbZTA"
+#define BLYNK_TEMPLATE_ID "Insert Yout ID Here"
 #define BLYNK_TEMPLATE_NAME "PV Cooling System"
-#define BLYNK_AUTH_TOKEN "cqGjuQRyv7rxocwkzE9s7QJI-Gi_jmh3"
+#define BLYNK_AUTH_TOKEN "Insert your Token here"
 
 #include <Arduino.h>
 #include <Wire.h>
@@ -32,13 +32,13 @@ const int daylightOffset_sec = 0;
 RTC_DS3231 rtc;
 
 // --- Telegram Setting ---
-const char* botToken = "8329987820:AAFCKq5YhaqxtVZlnj3ePRI3WSuSuesEI54";
-const char* chatId = "639729503";
+const char* botToken = "Telegram Bot Token";
+const char* chatId = "Telegram Chat ID";
 WiFiClientSecure client;
 UniversalTelegramBot bot(botToken,client);
 
 // --- Google Sheets Data Logging --- 
-String googleScriptUrl = "https://script.google.com/macros/s/AKfycbyu6atjBAX2xWjbPkQO9kMhCcf0fBxnvsBEaaudWT4Z_-5paU3kZhnhX3rc6qGxCokU/exec";
+String googleScriptUrl = "Google Sheets URL";
 
 // --- Hardware Configuration ---
 Adafruit_INA219 sensor_uncooledPV(0x40);
